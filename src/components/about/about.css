@@ -1,0 +1,99 @@
+.about{
+    display:flex;
+    flex: 9;
+}
+
+.aboutWrapper{
+    flex: 12;
+    padding: 20px;
+}
+
+.aboutTitle{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aboutTitleUpdate{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    color: lightcoral;
+}
+
+.aboutForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutForm>label{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.aboutForm>textarea{
+    color: grey;
+    margin: 10px 0;
+    font-size: 20px;
+    /* height: 20px; */
+    border: 1px solid grey;
+    outline: none;
+    overflow: visible;
+    resize: none;
+}
+
+.aboutI{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.aboutIc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutIcon {
+    font-size: 30px;
+    margin: 8px;
+    color: #444;
+    cursor: pointer;
+}
+
+.opaque{
+    opacity: 0.5;
+}
+
+.aboutIconHidden {
+    display: none;
+}
+
+.aboutcontactinput{
+    margin: auto 10px;
+    font-size: 20px;
+    width: 20vw;
+}
+
+.aboutSubmitButton{
+    align-self: center;
+    width: 10vw;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 128, 128);
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.aboutSubmitButton:disabled{
+    cursor:progress;
+    background-color: rgba(0, 128, 128, 0.8);
+}
+
+.success {
+    margin:20px;
+    color: green;
+    font-size: 18px;
+    text-align: center;
+}
